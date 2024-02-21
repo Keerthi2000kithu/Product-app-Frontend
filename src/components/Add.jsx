@@ -43,7 +43,7 @@ const Add = () => {
                                 <input type="number" className="form-control" name="price" value={data.price}  onChange={readValue}/>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <label htmlFor="" className="form-label">Description</label>
+                                <label htmlFor="" className="form-label">Description in Words</label>
                                 <input type="text" className="form-control" name="description" value={data.description} onChange={readValue} />
                             </div>
 
@@ -53,7 +53,7 @@ const Add = () => {
                                 <input type="percentage" className="form-control" name="discountPercentage" value={data.discountPercentage} onChange={readValue}/>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <label htmlFor="" className="form-label">Stock</label>
+                                <label htmlFor="" className="form-label">Stock Value</label>
                                 <input type="text" className="form-control" name="stock" value={data.stock} onChange={readValue} />
                             </div>
                             
